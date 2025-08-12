@@ -50,19 +50,19 @@ class Dog extends Animal{
         System.out.println("Woof!");
     }
 }
-public class MainAbstractClass {
-    public static void main(String[] args) {
-        // Shape myShape = new Shape(); // This line would cause a compile error
-
-//        Circle myCircle = new Circle();
-//        System.out.println(myCircle.display());
+//public class MainAbstractClass {
+//    public static void main(String[] args) {
+//        // Shape myShape = new Shape(); // This line would cause a compile error
 //
-//        Rectangle myRectangle = new Rectangle();
-//        System.out.println(myRectangle.display());
-
-        Dog dog = new Dog();
-        dog.breathe();
-        dog.makeSound();
-
-    }
-}
+////        Circle myCircle = new Circle();
+////        System.out.println(myCircle.display());
+////
+////        Rectangle myRectangle = new Rectangle();
+////        System.out.println(myRectangle.display());
+//
+//        Dog dog = new Dog();
+//        dog.breathe();
+//        dog.makeSound();
+//
+//    }
+//}

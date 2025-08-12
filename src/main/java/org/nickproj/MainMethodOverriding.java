@@ -34,13 +34,13 @@ class ArmoredCharacter extends GameCharacter{
     }
 }
 
-public class MainMethodOverriding {
-    public static void main(String[] args) {
-        //Mini-Challenge code
-        GameCharacter regular = new GameCharacter();
-        ArmoredCharacter armored = new ArmoredCharacter();
-        regular.takeDamage(100,"Regular Guy");
-        armored.takeDamage(100, "Guy Fieri with a bowl cut");
+//public class MainMethodOverriding {
+//    public static void main(String[] args) {
+//        //Mini-Challenge code
+//        GameCharacter regular = new GameCharacter();
+//        ArmoredCharacter armored = new ArmoredCharacter();
+//        regular.takeDamage(100,"Regular Guy");
+//        armored.takeDamage(100, "Guy Fieri with a bowl cut");
 
 //        Editor myEditor = new Editor();
 //        CodeEditor myCodeEditor = new CodeEditor();
@@ -54,5 +54,5 @@ public class MainMethodOverriding {
 //
 //        System.out.println("\n--- Polymorphic Editor ---");
 //        polyEditor.openFile();
-    }
-}
+//    }
+//}

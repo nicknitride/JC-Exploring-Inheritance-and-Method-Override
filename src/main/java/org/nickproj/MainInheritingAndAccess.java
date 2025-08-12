@@ -30,9 +30,9 @@ class CheckingAccount extends BankAccount {
     }
 }
 
-public class MainInheritingAndAccess {
-    public static void main(String[] args) {
-        CheckingAccount myChecking = new CheckingAccount(100.0);
-         myChecking.deductMonthlyFee(); // This line cannot be run
-    }
-}
+//public class MainInheritingAndAccess {
+//    public static void main(String[] args) {
+//        CheckingAccount myChecking = new CheckingAccount(100.0);
+//         myChecking.deductMonthlyFee(); // This line cannot be run
+//    }
+//}

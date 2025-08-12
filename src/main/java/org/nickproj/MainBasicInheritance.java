@@ -26,14 +26,14 @@ class Bicycle extends Vehicle{
 }
 
 
-public class MainBasicInheritance {
-    public static void main(String[] args) {
-        Car myCar = new Car();
-        myCar.honk();
-        myCar.display();
-
-        Bicycle bike = new Bicycle();
-        bike.honk();
-        bike.ringBell();
-    }
-}
+//public class MainBasicInheritance {
+//    public static void main(String[] args) {
+//        Car myCar = new Car();
+//        myCar.honk();
+//        myCar.display();
+//
+//        Bicycle bike = new Bicycle();
+//        bike.honk();
+//        bike.ringBell();
+//    }
+//}
